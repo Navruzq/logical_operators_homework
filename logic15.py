@@ -6,4 +6,13 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x1=a%10
+    x2=a//10%10
+    x3=a%100
+    m=x1+x2+x3
+    if m%2==1:
+      s=True
+    else:
+      s=False
+    return s
+print(main(335))
