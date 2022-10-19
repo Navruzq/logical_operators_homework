@@ -10,9 +10,9 @@ def main(a,b,c):
     """
     s=0
     if c>b and b>a:
-        s="true"
+        s="True"
     if a>b and b>c:
-        s="true"
+        s="True"
     else:
         s="False"
     return s
