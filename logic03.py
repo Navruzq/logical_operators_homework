@@ -7,4 +7,10 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    s=0
+    if a<0 and b<0:
+        s="True"
+    else:
+        s="False"
+    return s
+print(main(6,-4))
