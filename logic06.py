@@ -11,7 +11,6 @@ def main(a,b):
     if a<=0 and b<=0:
         s=False
     else:
-        s=Ture
+        s=True
     return s
 print(main(0,0))
-1 "1"
