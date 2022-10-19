@@ -1,3 +1,6 @@
+from re import S
+
+
 def main(a):
     """
     Given integer a,  check the following statement "The integer is two-digit number".
@@ -6,4 +9,10 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    s=0
+    if a<10:
+        s=False
+    if a>=10 and a<100:
+        s=True
+    return s 
+print(main(2))
