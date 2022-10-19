@@ -8,12 +8,9 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    s=0
-    if c>b and b>a:
-        s=True
-    if a>b and b>c:
-        s=True
+    
+    if a<b and c>b:
+        return a<b<c
     else:
-        s=False
-    return s
+        return a>b and b>c
 print(main(6,4,1))  
