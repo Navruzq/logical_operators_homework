@@ -12,8 +12,8 @@ def main(a,b):
     """
     s=0
     if a%2==0 and b%2==0:
-        s="True"
+        s=True
     else:
-        s="False"
+        s=False
     return s
 print(main(2,4))
