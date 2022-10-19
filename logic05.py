@@ -9,8 +9,8 @@ def main(a,b):
     """
     s=0
     if a%2==1 and b%2==1:
-        s="Ture"
+        s=True
     else:
-        s="False"
+        s=False
     return s
 print(main(1,3))
