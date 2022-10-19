@@ -10,10 +10,10 @@ def main(a,b,c):
     """
     s=0
     if c>b and b>a:
-        s="True"
+        s=True
     if a>b and b>c:
-        s="True"
+        s=True
     else:
-        s="False"
+        s=False
     return s
 print(main(6,4,1))  
