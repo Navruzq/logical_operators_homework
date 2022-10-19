@@ -7,4 +7,10 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    s=0
+    if a<=0 and b<=0:
+        s="False"
+    else:
+        s="Ture"
+    return s
+print(main(0,0))
