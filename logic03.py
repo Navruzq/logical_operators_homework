@@ -9,8 +9,8 @@ def main(a,b):
     """
     s=0
     if a<0 and b<0:
-        s="True"
+        s=True
     else:
-        s="False"
+        s=False
     return s
 print(main(6,-4))
