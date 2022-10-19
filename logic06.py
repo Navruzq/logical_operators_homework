@@ -9,8 +9,9 @@ def main(a,b):
     """
     s=0
     if a<=0 and b<=0:
-        s="False"
+        s=False
     else:
-        s="Ture"
+        s=Ture
     return s
 print(main(0,0))
+1 "1"
