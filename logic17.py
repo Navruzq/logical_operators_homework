@@ -9,7 +9,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    a=75421
+    
     x1=a%10
     x2=a%100//10
     x3=a%1000//100
